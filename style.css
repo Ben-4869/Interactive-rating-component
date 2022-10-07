@@ -106,6 +106,17 @@ body {
     border-radius: 20px;
 }
 
+.rate-state {
+    display: block;
+}
+
+.thankyou-state {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
 .star-container {
     width: 40px;
     height: 40px;
@@ -167,4 +178,28 @@ body {
 #submit-btn:hover {
     background: var(--clr-neutral--100);
     color: var(--clr-primary--400);
+}
+
+.thankyou-img {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.selected-rating {
+    color: var(--clr-primary--400);
+    background: hsl(214, 15%, 18%);
+    padding: 0.3125rem 0.625rem;
+    border-radius: 20px;
+    margin-bottom: 1.5rem;
+}
+
+.thankyou-heading {
+    font-size: 1.5rem;
+    font-weight: var(--fw-bold);
+    color: var(--clr-neutral--100);
+    margin-bottom: 0.875rem;
+}
+
+.thankyou-paragraph {
+    margin-bottom: 1.25rem;
 }
